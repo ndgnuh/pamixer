@@ -25,6 +25,12 @@ Dependencies
 
 You need the headers as well (“-dev” packages for Debian).
 
+Debian users::
+
+        sudo apt install --mark-auto libboost1.74-dev libpulse-dev libboost-program-options-dev
+
+(Search for packages' name using ``apt-file search $file`` with ``$file`` being the header files included in the source code)
+
 Installation
 ------------
 
